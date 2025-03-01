@@ -19,4 +19,3 @@ if (firebase.apps.length === 0){
 
 const db = getDatabase();
 export { db };
-

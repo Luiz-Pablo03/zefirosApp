@@ -2,7 +2,7 @@ import React from "react";
 import { Image, Text, View, StyleSheet, TouchableOpacity, Modal, StatusBar } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { useState } from "react";
-import ModalUmidi from "./src/components/modal";
+import ModalUmidi from "../modal";
 import { db } from "./config";
 import { ref, set } from 'firebase/database';
 
